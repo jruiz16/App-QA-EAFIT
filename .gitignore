@@ -1,0 +1,37 @@
+# General
+# Ignorar archivos temporales y de caché
+/.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Ignorar archivos de configuración locales
+config.local.js
+database.local.js
+
+# Ignorar logs
+logs/
+
+# Ignorar archivos de compilación
+build/
+dist/
+
+# Ignorar archivos generados por herramientas
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Ignorar dependencias
+node_modules/
+
+# Ignorar archivos de caché de Cypress
+cypress/downloads
+
+# Ignorar archivos de resultados de pruebas
+cypress/results
+
+# Ignorar archivos específicos (adapta según tus necesidades)
+backend/node_modules
+frontend/node_modules
+test/node_modules

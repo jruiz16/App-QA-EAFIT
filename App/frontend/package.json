@@ -1,0 +1,11 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend estático para la aplicación de pago",
+  "main": "index.html",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
